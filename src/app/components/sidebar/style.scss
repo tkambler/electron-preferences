@@ -12,6 +12,8 @@
     overflow-x: hidden;
     overflow-y: auto;
     background-color: #f8f9fb;
+    padding: 0;
+    margin: 0;
 
     .sidebar-section {
         height: 40px;
@@ -26,7 +28,7 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        color: #5d5d5d;
+        color: #8C8C8C;
         font-weight: 600;
         cursor: pointer;
 

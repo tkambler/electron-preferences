@@ -15,7 +15,7 @@ class Main extends React.Component {
         });
 
         return (
-            <div className="main">
+            <div className="main" role="tabpanel">
                 { groups }
             </div>
         );
