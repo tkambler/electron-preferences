@@ -43,9 +43,12 @@ const AcceleratorField = ({ field, value, onChange }) => {
 
 			// Clear the value on backspace (8) or delete (46)
 			if (keys.length < 1 && (event.which === 8 || event.which === 46)) {
+
 				setPressing(false);
-				onChange('')
+				onChange('');
+
 				return;
+
 			}
 
 			// We allow single-keys to be set, unless `modifierRequired` is passed
